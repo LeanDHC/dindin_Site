@@ -33,18 +33,33 @@ header a{
 
 
 
+
+
+
 footer{
+    background-color:#2E948A;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 103px 26px 82px;
 }
 
-.menu2,a{
+.menu2,a,.botoes{
     list-style: none;
     text-decoration: none;
     color:white;
 }
 
+.botoes li{
 
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 190px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
 
 
 
@@ -83,7 +98,3 @@ footer{
 
 
 
-footer{
-    background-color:#2E948A;
-    
-}
