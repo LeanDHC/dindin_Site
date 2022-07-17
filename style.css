@@ -7,11 +7,13 @@
 
 
 header{
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color:#2E948A;
     padding: 20px 103px 26px 82px;
+    font-family: "Ubuntu", sans-serif;
 }
 
 header ul{
@@ -26,12 +28,226 @@ header ul li{
 }
 
 header a{
+    font-size: 20px;
     text-decoration: none;
     color:white
 }
 
+/* primeira coluna */
+
+.principal1{
+    margin: 0 auto;
+    width: 1400px;
+    display: flex;
+    padding: 50px 250px;
+    justify-content: space-around;
+    font-family: "Ubuntu", sans-serif;
+}
 
 
+
+.principal1 h1{
+    
+    color: #FF4081;
+    width: 380px;
+    text-align:left; 
+    font-size: 60px;
+    text-justify: inter-word;
+  
+   
+}
+
+.principal1 p{
+
+    font-size: 27px;
+    padding: 20px 0 30px 0px;
+    width: 320px;
+  
+}
+
+#botao{
+    border: solid 1px #FF4081 ;
+    color: #FF4081;
+    width: 250px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 3px;
+    
+}
+
+
+/* Segunda coluna */
+
+
+.principal2{
+  padding: 50px 200px 0px 200px;
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #F7F7F7;;
+ 
+
+}
+
+
+
+.principal2 ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0 auto;   
+}
+
+
+.principal2 h3{
+    padding: 20px 0px 20px 0px;
+    color: #FF4081;
+}
+
+.principal2 li{
+    text-align: center;
+    width: 400px;
+   
+}
+
+.paragrafo{
+    padding: 20px;
+}
+
+.botao-vermelho{
+    
+    background-color: #FF4081;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    border-radius: 40px;
+    padding: 14px 0 14px 0;
+
+}
+
+
+
+
+/* Quem somos nos */
+
+.principal3{
+    width: 1400px;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+.principal3 h3{
+
+    font-size: 37px;
+    padding: 80px 0px 50px 100px;
+    
+}
+
+.principal3 ul{
+    display: flex;
+    padding: 0px 0px 0px 100px;
+}
+
+
+.principal3 li{
+    padding: 10px 80px 70px 0px;
+    display: flex;
+
+}
+
+.principal3 p{
+    padding: 0px 0px 0px 20px;
+    width: 400px;
+    font-size: 18px;
+}
+
+.principal3 span{
+
+    font-weight: 600;
+}
+
+
+
+/* MAIS CONTEUDO PARA CONTEUDO */
+.principal4 {
+  padding: 50px 200px 0px 200px;
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+ 
+    background-color: #E5E5E5;
+
+}
+
+.principal4 ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0 auto;
+}
+
+
+.principal4 h3 {
+    color: #2E948A;
+    text-align: left;
+    padding: 10px 0px 0px 38px;
+}
+
+section h4 {
+    background-color: #E5E5E5 ;
+    color: #2E948A;
+    font-size: 37px;
+    padding: 50px 580px 0px 10px;
+    text-align: center;
+    
+    
+}
+
+.principal4 li {
+    text-align: center;
+    width: 400px;
+
+}
+
+.paragrafo4 {
+    padding: 0px 10px 10px 0px;
+    width: 319px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.quadrado {
+    margin: 0 auto;
+    width: 319px;
+    height: 193px;
+    background-color: #C4C4C4;
+    
+
+}
+
+.ver-posts{
+text-align: center;
+padding: 70px 0px 100px 0px;
+background-color: #E5E5E5;
+}
+
+.ver-posts p{
+   
+    width: 300px;
+    font-size: 25px;
+    background-color: white;
+    margin: 0 auto;
+    font-family: "Ubuntu",sans-serif;
+    border: 1px solid  #FF4081;
+    color: #FF4081;
+    padding: 10px 0 10px 0px;
+    border-radius: 40px;
+}
+
+
+
+ 
 
 
 
@@ -42,6 +258,8 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 20px 103px 26px 82px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
 }
 
 .menu2,a,.botoes{
@@ -54,12 +272,13 @@ footer{
 
     border: 1px solid white;
     border-radius: 20px;
-    width: 190px;
+    width: 250px;
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 5px;   
     margin-top: 10px;
 }
+
 
 
 
