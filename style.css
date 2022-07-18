@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-
-
+/*  início index. html */
+  /* Cabecalho */
 header{
     width: auto;
     display: flex;
@@ -32,14 +32,15 @@ header a{
     text-decoration: none;
     color:white
 }
+/* Fim cabecalho */
 
 /* primeira coluna */
 
 .principal1{
     margin: 0 auto;
-    width: 1400px;
+    width: 1600px;
     display: flex;
-    padding: 50px 250px;
+    padding: 50px 200px;
     justify-content: space-around;
     font-family: "Ubuntu", sans-serif;
 }
@@ -49,7 +50,7 @@ header a{
 .principal1 h1{
     
     color: #FF4081;
-    width: 380px;
+    width: 480px;
     text-align:left; 
     font-size: 60px;
     text-justify: inter-word;
@@ -80,7 +81,7 @@ header a{
 
 
 .principal2{
-  padding: 50px 200px 0px 200px;
+  padding: 50px 200px 50px 200px;
   display: flex;
   font-family: "Ubuntu", sans-serif;
   background-color: #F7F7F7;;
@@ -158,19 +159,20 @@ header a{
 }
 
 .principal3 p{
-    padding: 0px 0px 0px 20px;
+    padding: 10px 0px 0px 20px;
     width: 400px;
     font-size: 18px;
 }
 
 .principal3 span{
-
+    padding: 10px;
     font-weight: 600;
 }
 
 
 
 /* MAIS CONTEUDO PARA CONTEUDO */
+
 .principal4 {
   padding: 50px 200px 0px 200px;
   display: flex;
@@ -198,7 +200,7 @@ section h4 {
     background-color: #E5E5E5 ;
     color: #2E948A;
     font-size: 37px;
-    padding: 50px 580px 0px 10px;
+    padding: 50px 580px 1px 10px;
     text-align: center;
     
     
@@ -241,16 +243,85 @@ background-color: #E5E5E5;
     font-family: "Ubuntu",sans-serif;
     border: 1px solid  #FF4081;
     color: #FF4081;
-    padding: 10px 0 10px 0px;
+    padding: 10px 0 10px 10px;
     border-radius: 40px;
 }
 
-
+/* Fim do index.html */
 
  
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Rodapé */
 
 footer{
     background-color:#2E948A;
@@ -278,7 +349,7 @@ footer{
     padding-bottom: 5px;   
     margin-top: 10px;
 }
-
+/* Fim Rodapé */
 
 
 
