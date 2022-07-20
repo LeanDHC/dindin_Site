@@ -777,9 +777,12 @@ footer{
   /* Index.html */
 
    
+
+
     header{
-      
-       padding: 10px 20px;
+       
+       width:420px;
+       padding: 10px 40px 10px 10px;
        flex-direction: column;
       
     }
@@ -810,17 +813,17 @@ footer{
     text-align: center;
     width: 375px;
     font-size: 25px;
-    padding: 10px 30px 0px 10px;
+    padding: 10px 0px 0px 10px;
    }
    
    .principal1 p{
     text-align: center;
     font-size: 16px;
-    padding: 10px 50px 20px 80px;
+    padding: 10px 0px 20px 80px;
    }
    
    #botao{
-     margin-left:55px;
+     margin-left:65px;
 
    }
  
@@ -831,7 +834,7 @@ footer{
    .principal1 img{
     width: 150px;
     padding: 30px 0px 0px 0px;
-    margin-left: 110px;
+    margin-left: 120px;
    }
   
    .principal2{
@@ -843,7 +846,7 @@ footer{
    }
 
    .principal2 li{
-     padding: 0px 40px 0px 0px ;
+     padding: 0px 40px 0px 40px ;
    }
    .principal2 ul{
     display: block;
@@ -927,9 +930,9 @@ footer{
 }
 
 .ver-posts a{
-   margin-right: 45px;
-    font-size: 20px;
-    padding: 0px 30px 0px 30px;
+margin-right: 45px;
+font-size: 20px;
+padding: 0px 30px 0px 30px;
 }
 
 footer{
