@@ -775,9 +775,11 @@ footer{
 @media screen and (max-width:667px){
     
   
+
+   
     header{
       
-       padding: 0 10px;
+       padding: 0 210px;
        flex-direction: column;
       
     }
@@ -797,7 +799,7 @@ footer{
 
     .principal1, .principal2, .principal3, .principal4{
 
-        max-width: 375px;
+        width: 420px;
         display: block;
         padding: 20px 0px 0px 0px;     
     }
@@ -828,7 +830,9 @@ footer{
     margin-left: 130px;
    }
   
-   
+   .principal2{
+    padding-bottom: 20px;
+   }
    .principal2 ul{
     display: block;
     font-size: 13px;
@@ -875,7 +879,7 @@ footer{
    .principal3 img{
     width: 80px;
     height: 80px;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
    }
    
    section h4{
@@ -887,26 +891,35 @@ footer{
 
    }
 
+
+.conteudo{
+    width: 420px;
+}
+
 .principal4 ul{
     display: block;
-
     
+    
+}
+.ver-posts{
+    width: 420px;
 }
 
 .ver-posts a{
+   
     font-size: 20px;
     padding: 0px 30px 0px 30px;
 }
 
 footer{
-
+width: 420px;
 padding: 0 10px;
 flex-direction: column;
 padding-bottom: 30px;
 }
 
 footer img{
-
+padding: 10px 0px 0px 0px;
 width: 150px;
 
 }
