@@ -1063,7 +1063,8 @@ margin-left: 80px;
 }
 
 iframe{
-   width: 390px;
+   width: 360px;
+   margin-left: 8px;
   
     
 }
@@ -1079,6 +1080,41 @@ iframe{
     padding: 0px;
     text-align: center;
 }
+
+/* Fim curso.html */
+
+/* Inicio blog.html */
+
+.principal-blog{
+    padding: 0px;
+    width: 600px;
+    display: block;
+
+}
+
+.principal-blog h1{
+    font-size: 30px;
+    padding: 30px 100px 0px 0px;
+    text-align:center;
+}
+
+.principal-blog img{
+    padding: 0px;
+    width: 200px;
+   margin-left: 100px;
+}
+
+.principal-blog p{
+    font-size: 14px;
+    width: 360px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+
+
+
 }
 
 
