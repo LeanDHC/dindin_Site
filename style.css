@@ -889,7 +889,7 @@ footer{
 
 .principal4 ul{
     display: block;
-    width:375px; ;
+
     
 }
 
@@ -899,7 +899,7 @@ footer{
 }
 
 footer{
-width: 375px;
+
 padding: 0 10px;
 flex-direction: column;
 padding-bottom: 30px;
