@@ -174,7 +174,7 @@ header a{
 
 
 
-/* MAIS CONTEUDO PARA CONTEUDO */
+/* MAIS CONTEUDO PARA VOCÊ */
 
 .principal4 {
   padding: 50px 200px 0px 200px;
@@ -569,25 +569,136 @@ margin-top: 20px;
 }
 
 
+/* Pagina blog.html */
 
 
+    .blog-background{
+        background-color:#E5E5E5; 
+    }
+
+.principal-blog{
+    /* width: 1000px; */
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 250px;
+    justify-content: space-around;
+    font-family: "Ubuntu", sans-serif;
+    width: 1800px;
+
+}
+
+.principal-blog h1{
+    padding: 80px 0px 30px 0px;
+    color: #2E948A;
+    width: 512px;
+    text-align: left;
+    font-size: 60px;
+    text-justify: inter-word; 
+}
+
+.principal-blog p{
+    font-size: 20px;
+    padding: 20px 0px 40px 0px;
+    width: 431px;
+}
+
+.principal-blog img{
+    padding: 30px 0px 0px 110px;
+}
+
+.section-blog{
+    margin: 0 auto;
+    width: 1800px;
+    display: flex;
+    justify-content: space-around;
+    padding:90px 100px 150px 100px;
+    
+}
+
+.section-blog ul{
+    list-style: none;
+}
+
+.quadrado-blog{
+    margin: 0 auto;
+    width: 518px;
+    height: 259px;
+    background-color: #C4C4C4;
+
+}
+
+.section-blog a{
+    color: black;
+}
 
 
+.paragrafo-blog{
+    padding: 20px 50px 110px 0px;
+    width: 516px;   
+    
+   
+
+}
+
+.section-blog h3{
+    color: #FF4081;
+    text-align: left;
+    padding: 20px 0px 0px 0px;
+    font-size: 30px;
+}
+    
 
 
+/* /* Pagina post.html */ 
+.head-post h1{
+    color:#FF4081;
+    padding: 80px 0px 0px 0px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.head-post h6{
+    text-align: center;
+    color: rgba(157, 157, 157, 1);
+    font-size: 18px;
+    padding: 0px 0px 60px 0px;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.quadrado-post{
+    margin: 0 auto;
+    width:1032px ;
+    height: 465px;
+    background-color:#C4C4C4 ;
+}
+
+.text-post{
+    padding: 50px 0 80px 0;
+    width: 1032px;
+    margin: 0 auto;
+    font-family: "Ubuntu",sans-serif;
+    
+}
 
 
+.text-post h2,h3{
 
+    color:#2E948A;
+    font-size: 26px;
+    font-family: "Ubuntu",sans-serif;
 
+}
 
-
-
-
-
-
-
-
-
+#post-titulo{
+    text-align: center;
+    background-color: #F7F7F7; 
+    padding:50px 0px 50px 0px ;
+    font-size: 50px;
+    color: #FF4081;
+    font-weight: 500;
+    font-family: "Ubuntu",sans-serif;
+}
 
 
 
@@ -663,7 +774,12 @@ footer{
 
 @media screen and (max-width:667px){
     
+    body{
+        max-width: 500px;
+    }
+    
     header{
+      
        padding: 0 10px;
        flex-direction: column;
       
@@ -680,7 +796,140 @@ footer{
     header a{
         text-decoration: none;
     }
+ 
+
+    .principal1, .principal2, .principal3, .principal4{
+
+        max-width: 500px;
+        display: block;
+        padding: 20px 0px 0px 0px;     
+    }
+    
+   .principal1 h1, .principal3 h3{
+    
+    
+    text-align: center;
+    width: 375px;
+    font-size: 25px;
+    padding: 10px 0px 0px 10px;
+   }
+   
+   .principal1 p{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0px 20px 80px;
+   }
+   
+   #botao{
+     margin-left:75px;
+
+   }
+
+   .principal1 img{
+    width: 150px;
+    padding: 10px;
+    margin-left: 130px;
+   }
+  
+   
+   .principal2 ul{
+    display: block;
+    font-size: 13px;
+        
+    
+   }
+   
+   .paragrafo{
+    width: 350px;
+    margin: 0 auto;
+   }
+
+   .botao-vermelho{
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;
+
+   }
+
+  .principal2 img{
+    display: none;
+  }
+
+   .principal2 h3{
+    font-size: 20px;
+   }
+ 
+   
+   .principal3 ul{
+    padding: 0px;
+    display: block;
+   }
+   .principal3 p{
+    width: 250px;
+    font-size: 13px;
+    padding: 0px;
+   }
+   
+   .principal3 li{
+    padding: 10px 0px 0px 0px;
+   }
+
+   .principal3 img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+   }
+   
+   section h4{
+  
+    padding: 30px 30px 20px 50px;
+    text-align: center; 
+    font-size: 30px;
+    width: 375px;
+
+   }
+
+.principal4 ul{
+    display: block;
+    
 }
+
+.ver-posts a{
+    font-size: 20px;
+    padding: 0px 30px 0px 30px;
+}
+
+footer{
+
+padding: 0 10px;
+flex-direction: column;
+padding-bottom: 30px;
+}
+
+footer img{
+
+width: 150px;
+
+}
+
+.menu2{
+    display: flex;
+    column-gap: 10px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+ .botoes li{
+   width: 150px;
+   padding: 0px;
+   font-size: 14px;
+   
+   
+       
+
+} 
+
+}
+
 
 
 
