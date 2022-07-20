@@ -774,12 +774,12 @@ footer{
 
 @media screen and (max-width:667px){
     
-  
+  /* Index.html */
 
    
     header{
       
-       padding: 0 210px;
+       padding: 10px 20px;
        flex-direction: column;
       
     }
@@ -801,7 +801,7 @@ footer{
 
         width: 420px;
         display: block;
-        padding: 20px 0px 0px 0px;     
+        padding: 20px 0px 20px 0px;     
     }
     
    .principal1 h1, .principal3 h3{
@@ -810,32 +810,45 @@ footer{
     text-align: center;
     width: 375px;
     font-size: 25px;
-    padding: 10px 0px 0px 10px;
+    padding: 10px 30px 0px 10px;
    }
    
    .principal1 p{
     text-align: center;
     font-size: 16px;
-    padding: 10px 0px 20px 80px;
+    padding: 10px 50px 20px 80px;
    }
    
    #botao{
-     margin-left:75px;
+     margin-left:55px;
 
    }
+ 
+      
+
+   
 
    .principal1 img{
     width: 150px;
-    padding: 10px;
-    margin-left: 130px;
+    padding: 30px 0px 0px 0px;
+    margin-left: 110px;
    }
   
    .principal2{
     padding-bottom: 20px;
+    
+   
+
+
+   }
+
+   .principal2 li{
+     padding: 0px 40px 0px 0px ;
    }
    .principal2 ul{
     display: block;
     font-size: 13px;
+   
         
     
    }
@@ -882,9 +895,9 @@ footer{
     padding: 10px 10px 10px 10px;
    }
    
-   section h4{
+  .conteudo h4{
   
-    padding: 30px 30px 20px 50px;
+    padding: 30px 90px 0px 60px;
     text-align: center; 
     font-size: 30px;
   
@@ -893,9 +906,16 @@ footer{
 
 
 .conteudo{
+  
     width: 420px;
+   
 }
 
+.quadrado{
+
+    width: 300px;
+    margin-left: 40px; 
+}
 .principal4 ul{
     display: block;
     
@@ -903,10 +923,11 @@ footer{
 }
 .ver-posts{
     width: 420px;
+    
 }
 
 .ver-posts a{
-   
+   margin-right: 45px;
     font-size: 20px;
     padding: 0px 30px 0px 30px;
 }
@@ -921,25 +942,27 @@ padding-bottom: 30px;
 footer img{
 padding: 10px 0px 0px 0px;
 width: 150px;
-
+margin-right: 60px;
 }
 
 .menu2{
     display: flex;
     column-gap: 10px;
     font-size: 14px;
-    padding: 10px;
+    padding: 10px 50px 0px 0px;
+
 }
 
  .botoes li{
    width: 150px;
-   padding: 0px;
+   padding: 0px  ;
    font-size: 14px;
-   
+   margin-right: 50px;
    
        
 
 } 
+/* Fim index.html */
 
 }
 
