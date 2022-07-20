@@ -1111,10 +1111,88 @@ iframe{
     padding: 20px 0px;
 }
 
+.section-blog{
+    display: block;
+    width: 400px;
+    padding: 10px 0px 0px 10px;
+}
 
+.quadrado-blog{
+    padding: 0px;
+    width: 350px;
+    height: 200px;
+    margin-left: 2px;
+    
+}
+.section-blog h3{
+    font-size: 20px;
+    margin-left: 25px;
+}
+.paragrafo-blog{
+    padding: 30px 0px;
+    width: 350px;
+    text-align: center;
 
+}
 
+/* fim blog.html */
 
+/* Inicio post.html */
+
+.head-post h1{
+    font-size: 20px;
+    padding: 60px 0px 0px 0px;
+}
+
+.quadrado-post{
+    padding: 0px 10px;
+    width: 350px;
+    height: 200px;
+    padding: 0px;
+}
+.text-post{
+    width: 350px;
+    font-size: 14px;
+    padding: 30px 0px 70px 0px;
+}
+
+.text-post h2,h3{
+    font-size: 20px;
+    padding: 0px;
+}
+#post-titulo{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+/* fim post.html */
+/* inicio contato.html */
+
+.contato{
+    display: block;
+    width: 400px;
+}
+
+.contato h1{
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+}
+.contato input{
+    display: block;
+    width: 350px;
+    margin-left: 10px;
+}
+button{
+    margin-left: 150px;
+    width: 80px;
+    margin-top: 15px;
+    
+}
+
+.img-contato img{
+  display: none;
+  /* Fim contato.html */
+}
 }
 
 
