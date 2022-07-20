@@ -775,10 +775,10 @@ footer{
 @media screen and (max-width:667px){
     
   /* Index.html */
-
-   
-
-
+   *{
+    overflow-x: hidden;
+   }
+ 
     header{
        
        width:420px;
@@ -871,7 +871,7 @@ footer{
   .principal2 img{
     display: none;
   }
-
+  
    .principal2 h3{
     font-size: 20px;
    }
@@ -880,11 +880,14 @@ footer{
    .principal3 ul{
     padding: 0px;
     display: block;
+    overflow-x: hidden;
    }
    .principal3 p{
     width: 250px;
     font-size: 13px;
     padding: 0px;
+    overflow-y: hidden;
+   
    }
    
    .principal3 li{
@@ -968,6 +971,114 @@ margin-right: 60px;
 } 
 /* Fim index.html */
 
+/* Inicio cursos.html */
+
+.main,.curso1,.curso2,.curso3{
+    max-width: 420px;
+    display: block;
+    padding: 20px 0px 20px 0px; 
+   
+}
+
+.main span{
+    margin-left: 10px;
+}
+
+.curso1 img,.curso2 img,.curso3 img{
+
+max-width: 250px;
+height: 200px;
+margin-left: 60px;
+
+}
+.titulo_cursos h1{
+    margin-left: 100px;
+font-size: 40px;    
+    
+    
+}
+
+
+.titulo,.titulo2,.titulo3{
+    font-size: 20px;
+    text-align: center;
+    margin-right: 50px;
+    padding: 10px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.curso1 p,.curso2 p,.curso3 p{
+    max-width:250px;
+    font-size: 14px;
+    margin-left: 60px;
+    text-align: justify;
+    
+}
+
+.linha{
+    display: none;
+}
+
+#botao_curso {
+    padding: 5px 10px;
+}
+
+/* fim cursos.html */
+
+/* inicio curso.html */
+
+.principal-investimentos{
+    display: block;
+    width:667px;
+
+}
+.principal-investimentos h1{
+    font-size: 30px;
+    padding: 0px;
+    margin-left: 90px;
+}
+
+.principal-investimentos p{
+font-size: 14px;
+width: 300px;
+margin-left: 45px;
+text-align:justify ;
+
+}
+
+.principal-investimentos img{
+width: 200px;
+height: 200px;
+padding: 0px;
+margin-left: 80px;
+
+
+}
+
+.aula1,.aula2,.aula3{
+    display: block;
+    padding: 0px;
+    width: 400px;
+}
+
+iframe{
+   width: 350px;
+   margin-left: 10px;
+    
+}
+
+.aula1  p , .aula2 p, .aula3 p{
+    padding: 30px 0px;
+    width: 350px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.titulo_aula{
+    padding: 0px;
+    text-align: center;
+}
 }
 
 
