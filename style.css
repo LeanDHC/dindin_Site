@@ -772,7 +772,7 @@ footer{
 
 
 
-@media screen and (max-width:667px){
+@media screen and (min-width: 300px) and (max-width: 667px) {
     
   /* Index.html */
    *{
@@ -1197,4 +1197,476 @@ button{
 
 
 
+@media screen and (min-width:768px) and (max-width: 1024px) {
 
+
+  /* Index.html */
+  *{
+    overflow-x: hidden;
+   }
+ 
+    header{
+       
+       width:1024px;
+       padding: 0px 240px 0px 0px;
+       flex-direction: column;
+      
+    }
+
+   
+    header ul {
+       margin-left: 15px;
+        display:flex;
+       justify-content: space-around;
+            
+        
+    }
+
+    header a{
+        text-decoration: none;
+    }
+ 
+
+    .principal1, .principal2, .principal3, .principal4{
+
+        width: 1024px;
+        display: block;
+        padding: 20px 0px 0px 0px;     
+    }
+    
+   .principal1 h1, .principal3 h3{
+    
+    
+    text-align: center;
+    width: 1024px;
+    font-size: 25px;
+    padding: 10px 250px 0px 10px;
+   }
+   
+   .principal1 p{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0px 20px 0px;
+    margin-left: 230px;   
+}
+   
+   #botao{
+     margin-left:270px;
+
+   }
+ 
+      
+
+   
+
+   .principal1 img{
+    width: 150px;
+    padding: 30px 0px 0px 0px;
+    margin-left: 330px;
+   }
+  
+   .principal2{
+    padding-bottom: 20px;
+    
+   
+
+
+   }
+
+  .principal2 li{
+    width: 200px;
+  }
+
+   .principal2 ul{
+    width:700px;
+    display: flex;
+    font-size: 13px;
+    margin-left: 70px;
+          
+    
+   }
+   
+   .paragrafo{
+    width: 200px;
+    margin: 0 auto;
+   }
+
+   .botao-vermelho{
+    font-size: 14px;
+    
+
+   }
+
+  .principal2 img{
+    display: none;
+  }
+  
+   .principal2 h3{
+    font-size: 20px;
+   }
+ 
+   
+   .principal3 ul{
+    padding: 20px 50px 0px 50px;
+    display:flex;
+    overflow-x: hidden;
+   }
+   .principal3 p{
+    width: 250px;
+    font-size: 13px;
+    padding: 0px;
+    overflow-y: hidden;
+   
+   }
+   
+   .principal3 li{
+    
+    padding: 10px 0px 30px 0px;
+    width: 375px;
+   }
+
+   .principal3 img{
+    width: 80px;
+    height: 80px;
+    padding: 10px 10px 10px 10px;
+   }
+   
+  .conteudo h4{
+  
+    padding: 30px 90px 0px 60px;
+    text-align: center; 
+    font-size: 30px;
+  
+
+   }
+
+
+.conteudo{
+  
+    width:1024px;
+}
+
+.conteudo h4{
+   padding: 20px 190px 0px 0px ;
+
+}
+
+.principal4 ul{
+    max-width:850px;
+    padding: 0px 170px 0px 0px;
+}
+
+.principal4 li {
+    
+    width: 200px;
+
+}
+
+.paragrafo4 {
+    
+   width: 200px;
+   text-align: left;
+   padding: 10px 0px;
+}
+
+
+.principal4 h3{
+   
+    width: 200px;
+    font-size: 20px;
+    padding: 10px 0px;
+
+}
+.quadrado {
+    
+    width:200px;
+    height:100px;
+    background-color: #C4C4C4;
+    
+
+}
+
+
+
+
+
+
+.ver-posts{
+    width: 1024px;
+    padding: 30px;
+    
+}
+
+.ver-posts a{
+margin-right: 180px;
+font-size: 20px;
+padding: 0px 30px 0px 30px;
+
+}
+
+footer{
+width: 1024px;
+padding:0px 140px 0px 0px ;
+flex-direction: column;
+padding-bottom: 30px;
+}
+
+footer img{
+padding: 10px 0px 0px 0px;
+width: 150px;
+margin-right: 60px;
+}
+
+.menu2{
+    display: flex;
+    column-gap: 10px;
+    font-size: 14px;
+    padding: 10px 50px 0px 0px;
+
+}
+
+ .botoes li{
+   width: 150px;
+   padding: 0px  ;
+   font-size: 14px;
+   margin-right: 50px;
+   
+       
+
+} 
+/* Fim index.html */
+
+/* Inicio cursos.html */
+
+.titulo_cursos{
+  padding: 30px; 
+}
+
+
+.main {
+    max-width: 1024px;
+    
+     
+   
+}
+
+.main span{
+    margin-left: 10px;
+}
+
+.curso1 img,.curso2 img,.curso3 img{
+
+max-width: 250px;
+height: 250px;
+margin-left: 30px;
+
+}
+.titulo_cursos h1 {
+    margin-left: 100px;
+    font-size: 40px;   
+    padding: 0px 200px; 
+  
+    
+}
+
+.titulo_cursos span{
+    padding: 0px 210px; 
+}
+
+
+.titulo,.titulo2,.titulo3{
+    font-size: 20px;
+    text-align: center;
+    margin-right: 50px;
+    padding: 10px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.curso1 p,.curso2 p,.curso3 p{
+    max-width:250px;
+    font-size: 14px;
+    margin-left: 60px;
+    text-align: justify;
+    
+}
+
+.linha{
+    display: none;
+}
+
+#botao_curso {
+    padding: 5px 10px;
+}
+
+/* fim cursos.html */
+
+/* inicio curso.html */
+
+.principal-investimentos{
+    display: block;
+    width:667px;
+
+}
+.principal-investimentos h1{
+    font-size: 30px;
+    padding: 0px;
+    margin-left: 90px;
+}
+
+.principal-investimentos p{
+font-size: 14px;
+width: 300px;
+margin-left: 45px;
+text-align:justify ;
+
+}
+
+.principal-investimentos img{
+width: 200px;
+height: 200px;
+padding: 0px;
+margin-left: 80px;
+
+
+}
+
+.aula1,.aula2,.aula3{
+    display: block;
+    padding: 0px;
+    width: 400px;
+}
+
+iframe{
+   width: 360px;
+   margin-left: 8px;
+  
+    
+}
+
+.aula1  p , .aula2 p, .aula3 p{
+    padding: 30px 0px;
+    width: 350px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.titulo_aula{
+    padding: 0px;
+    text-align: center;
+}
+
+/* Fim curso.html */
+
+/* Inicio blog.html */
+
+.principal-blog{
+    padding: 0px;
+    width: 600px;
+    display: block;
+
+}
+
+.principal-blog h1{
+    font-size: 30px;
+    padding: 30px 100px 0px 0px;
+    text-align:center;
+}
+
+.principal-blog img{
+    padding: 0px;
+    width: 200px;
+   margin-left: 100px;
+}
+
+.principal-blog p{
+    font-size: 14px;
+    width: 360px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.section-blog{
+    display: block;
+    width: 400px;
+    padding: 10px 0px 0px 10px;
+}
+
+.quadrado-blog{
+    padding: 0px;
+    width: 350px;
+    height: 200px;
+    margin-left: 2px;
+    
+}
+.section-blog h3{
+    font-size: 20px;
+    margin-left: 25px;
+}
+.paragrafo-blog{
+    padding: 30px 0px;
+    width: 350px;
+    text-align: center;
+
+}
+
+/* fim blog.html */
+
+/* Inicio post.html */
+
+.head-post h1{
+    font-size: 20px;
+    padding: 60px 0px 0px 0px;
+}
+
+.quadrado-post{
+    padding: 0px 10px;
+    width: 350px;
+    height: 200px;
+    padding: 0px;
+}
+.text-post{
+    width: 350px;
+    font-size: 14px;
+    padding: 30px 0px 70px 0px;
+}
+
+.text-post h2,h3{
+    font-size: 20px;
+    padding: 0px;
+}
+#post-titulo{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+/* fim post.html */
+/* inicio contato.html */
+
+.contato{
+    display: block;
+    width: 400px;
+}
+
+.contato h1{
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+}
+.contato input{
+    display: block;
+    width: 350px;
+    margin-left: 10px;
+}
+button{
+    margin-left: 150px;
+    width: 80px;
+    margin-top: 15px;
+    
+}
+
+.img-contato img{
+  display: none;
+  /* Fim contato.html */
+}
+
+}
