@@ -9,7 +9,7 @@ Já temos o layout pronto de todas as páginas, mas precisamos que você desenvo
 CSS.
 
 <br>
-## Testes de Responsividade
+Testes de Responsividade
 
 <br>
 Foi utilizada a extensão Simulador de celular - ferramenta de teste responsiva <br>
