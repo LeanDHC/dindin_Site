@@ -1716,3 +1716,40 @@ button{
 }
 
 }
+
+
+@media screen and (min-width:768px) and (max-width: 1280px) {
+
+
+.principal1{
+    max-width: 1280px;
+}
+
+.principal2{
+    padding: 30px 0px;
+}
+
+.principal4{
+    padding: 20px 0px;
+}
+
+.linha {
+    max-width: 1280px;
+   
+}
+.curso1, .curso2 , .curso3{
+    max-width: 1280px;
+    padding: 30px 10px;
+}
+
+.principal-blog{
+    max-width: 1280px;
+}
+.section-blog{
+    max-width: 1280px;
+}
+
+.contato{
+    max-width: 1280px;
+}
+}
