@@ -1208,15 +1208,15 @@ button{
     header{
        
        width:1024px;
-       padding: 0px 240px 0px 0px;
-       flex-direction: column;
+       padding: 10px 240px 0px 30px;
+       
       
     }
 
    
     header ul {
        margin-left: 15px;
-        display:flex;
+       display:flex;
        justify-content: space-around;
             
         
@@ -1225,16 +1225,23 @@ button{
     header a{
         text-decoration: none;
     }
- 
+    .principal1{
+       width: 1024px;
+       padding: 20px 0px 0px 0px;
+       
+        
+    }
 
-    .principal1, .principal2, .principal3, .principal4{
+   
+
+    .principal2, .principal3, .principal4{
 
         width: 1024px;
         display: block;
         padding: 20px 0px 0px 0px;     
     }
     
-   .principal1 h1, .principal3 h3{
+   .principal3 h3{
     
     
     text-align: center;
@@ -1244,15 +1251,15 @@ button{
    }
    
    .principal1 p{
+    font-size: 20px;
     text-align: center;
-    font-size: 16px;
-    padding: 10px 0px 20px 0px;
-    margin-left: 230px;   
+    padding: 10px 0px 10px 0px;
 }
    
    #botao{
-     margin-left:270px;
-
+    
+     margin-bottom: 30px;
+    margin-left: 30px;
    }
  
       
@@ -1260,9 +1267,9 @@ button{
    
 
    .principal1 img{
-    width: 150px;
-    padding: 30px 0px 0px 0px;
-    margin-left: 330px;
+    width: 300px;
+    margin-right: 190px;
+   
    }
   
    .principal2{
@@ -1406,9 +1413,8 @@ padding: 0px 30px 0px 30px;
 
 footer{
 width: 1024px;
-padding:0px 140px 0px 0px ;
-flex-direction: column;
-padding-bottom: 30px;
+padding:10px 170px 0px 10px ;
+padding-bottom: 40px;
 }
 
 footer img{
@@ -1475,20 +1481,23 @@ margin-left: 30px;
 
 
 .titulo,.titulo2,.titulo3{
+    
     font-size: 20px;
-    text-align: center;
     margin-right: 50px;
-    padding: 10px;
+    padding: 10px 30px ;
     overflow-y: hidden;
     overflow-x: hidden;
 }
 
 .curso1 p,.curso2 p,.curso3 p{
-    max-width:250px;
+    max-width:400px;
     font-size: 14px;
-    margin-left: 60px;
     text-align: justify;
-    
+    padding:0px 0px 20px 0px;
+}
+
+.curso1,.curso2,.curso3{
+    padding: 20px 0px 50px 0px;
 }
 
 .linha{
@@ -1496,37 +1505,49 @@ margin-left: 30px;
 }
 
 #botao_curso {
+
+        
+    font-size: 18px;
+    margin-left: 100px;
     padding: 5px 10px;
 }
+
+
+    
+
+ 
+
+
 
 /* fim cursos.html */
 
 /* inicio curso.html */
 
 .principal-investimentos{
-    display: block;
-    width:667px;
+   
+    width:1024px;
+    padding: 40px 0px 0px 110px;
 
 }
 .principal-investimentos h1{
     font-size: 30px;
-    padding: 0px;
-    margin-left: 90px;
+    padding: 10px 0px;
+    margin-left: 40px;
 }
 
 .principal-investimentos p{
 font-size: 14px;
 width: 300px;
-margin-left: 45px;
 text-align:justify ;
 
 }
 
 .principal-investimentos img{
-width: 200px;
-height: 200px;
-padding: 0px;
-margin-left: 80px;
+width: 300px;
+margin-right: 750px;
+
+
+
 
 
 }
@@ -1534,26 +1555,39 @@ margin-left: 80px;
 .aula1,.aula2,.aula3{
     display: block;
     padding: 0px;
-    width: 400px;
+    width: 1024px;
 }
 
-iframe{
-   width: 360px;
-   margin-left: 8px;
-  
-    
+.cursos{
+    width: 1024px;
+    padding: 40px 0px;
+
+     
 }
+
+.aula1 iframe , .aula2 iframe,.aula3 iframe{
+    width: 700px;
+    height: 400px;
+    margin-left: 60px;
+    
+
+}
+
+
+
+
 
 .aula1  p , .aula2 p, .aula3 p{
-    padding: 30px 0px;
-    width: 350px;
-    font-size: 14px;
-    margin-left: 10px;
+    padding: 10px 0px 50px 0px ;
+    width: 700px;
+    font-size: 16px;
+    margin-left: 70px;
+    text-align: justify;
 }
 
 .titulo_aula{
-    padding: 0px;
-    text-align: center;
+    padding: 10px 350px;
+    
 }
 
 /* Fim curso.html */
@@ -1561,53 +1595,55 @@ iframe{
 /* Inicio blog.html */
 
 .principal-blog{
-    padding: 0px;
-    width: 600px;
-    display: block;
+    padding: 40px 180px 20px 0px ;
+    width: 1024px;
+    
 
 }
 
 .principal-blog h1{
     font-size: 30px;
-    padding: 30px 100px 0px 0px;
-    text-align:center;
+    padding: 30px 0px 0px 0px;
+   
+   
 }
 
 .principal-blog img{
     padding: 0px;
     width: 200px;
-   margin-left: 100px;
 }
 
 .principal-blog p{
     font-size: 14px;
     width: 360px;
-    text-align: center;
+   
     padding: 20px 0px;
+   
 }
 
 .section-blog{
     display: block;
-    width: 400px;
-    padding: 10px 0px 0px 10px;
+    width: 1024px;
+    padding: 30px 0px 0px 10px;
 }
 
 .quadrado-blog{
     padding: 0px;
-    width: 350px;
+    width:700px;
     height: 200px;
-    margin-left: 2px;
+    margin-left: 70px;
     
 }
 .section-blog h3{
     font-size: 20px;
-    margin-left: 25px;
+    margin-left: 250px;
+   
 }
 .paragrafo-blog{
     padding: 30px 0px;
-    width: 350px;
-    text-align: center;
-
+    width: 650px;
+    text-align: justify;
+    margin-left:100px;
 }
 
 /* fim blog.html */
@@ -1615,57 +1651,67 @@ iframe{
 /* Inicio post.html */
 
 .head-post h1{
-    font-size: 20px;
+    font-size: 30px;
     padding: 60px 0px 0px 0px;
 }
 
 .quadrado-post{
     padding: 0px 10px;
-    width: 350px;
-    height: 200px;
+    width: 700px;
+    height: 400px;
     padding: 0px;
 }
 .text-post{
-    width: 350px;
-    font-size: 14px;
+    width: 700px;
+    font-size: 16px;
     padding: 30px 0px 70px 0px;
 }
 
 .text-post h2,h3{
-    font-size: 20px;
+    font-size: 30px;
     padding: 0px;
 }
 #post-titulo{
     font-size: 25px;
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
+
+
 /* fim post.html */
 /* inicio contato.html */
 
 .contato{
-    display: block;
-    width: 400px;
+    
+    width: 1024px;
+    height: 920px;
+    padding: 0px 0px 0px 40px ;
 }
 
 .contato h1{
-    text-align: center;
-    padding: 0px;
-    font-size: 20px;
+    
+    width: 450px;
+    padding: 30px 0px 0px 0px ;
+    font-size: 40px;
+    margin-left: 280px;
 }
 .contato input{
-    display: block;
     width: 350px;
-    margin-left: 10px;
+    
 }
 button{
-    margin-left: 150px;
-    width: 80px;
+    margin-left: 130px;
+    width: 100px;
     margin-top: 15px;
+    margin-bottom: 10px;
     
 }
 
 .img-contato img{
-  display: none;
+ width: 300px;
+ height: 300px;
+ margin-top: 140px;
+ margin-right: 600px;
+
   /* Fim contato.html */
 }
 
